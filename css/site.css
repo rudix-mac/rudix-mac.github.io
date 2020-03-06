@@ -1,0 +1,70 @@
+/*! site.css v2020 | MIT License | Written by Rudá Moura */
+
+/* Document */
+
+html {
+  background-color: IndianRed;
+  line-height: 1.5; }
+
+body {
+  background-color: Snow;
+  color: Black;
+  font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+  width: 85%;
+  height: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  border-radius: 3px; }
+
+h1, h2, h3 { line-height: 1.15; color: inherit; }
+h1 { font-size: 130%; border-bottom: 3px solid IndianRed; }
+h2 { font-size: 110%; }
+h3 { font-size: 105%; }
+
+/* Grouping content */
+
+hr { border: 1px solid IndianRed; }
+
+code, kbd, pre, samp { font-family: "Courier", monospace; font-size:95%; }
+kbd {
+  border: 1px solid IndianRed;
+  border-radius: 3px;
+  padding: 5px; }
+pre {
+  padding: 0.5em;
+  line-height: 1.25;
+  background-color: PeachPuff;
+  border: 1px solid IndianRed;
+  border-radius: 3px; }
+
+/* Embbeded content */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+table {
+  width: 100%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+caption { border: 3px solid IndianRed;}
+tr {}
+th {}
+td {}
+
+dt {}
+dd { margin-top: 0.5em; margin-bottom: 1em; }
+
+blockquote { border-left: 1px solid IndianRed; }
+
+address { display: inline; }
+
+/* Other */
+
+@media screen and (max-width: 1024px) { #optionalA { display:none; } }
+@media screen and (max-width:  960px) { #optionalB { display:none; } }
