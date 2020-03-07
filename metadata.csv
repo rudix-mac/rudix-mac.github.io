@@ -63,7 +63,7 @@ elixir,1.4.1,Elixir,Apache License,http://elixir-lang.org
 emacs,26.2,GNU Emacs,GPLv3,https://www.gnu.org/software/emacs/
 epic5,1.1.10,EPIC5,BSD,http://epicsol.org/
 erlang,22.0,Erlang/OTP,Apache License,http://www.erlang.org/
-expat,2.2.0,Expat XML Parser,MIT,http://expat.sourceforge.net
+expat,2.2.9,Expat XML Parser,MIT,https://libexpat.github.io/
 ffmpeg,4.1.3,FFmpeg,LGPLv2.1+,http://ffmpeg.org
 figlet,2.2.5,FIGlet,The Academic Free License,http://www.figlet.org/
 findutils,4.6.0,GNU Find Utilities,GPLv3,http://www.gnu.org/software/findutils/
