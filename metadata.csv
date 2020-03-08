@@ -55,7 +55,7 @@ dialog,1.2,Dialog,LGPL,http://invisible-island.net/dialog/dialog.html
 diffutils,3.7,GNU Diffutils,GPLv3,https://www.gnu.org/software/diffutils/
 dos2unix,7.3.4,Dos2Unix,BSD,http://waterlan.home.xs4all.nl/dos2unix.html
 dovecot,2.2.27,Dovecot (Secure IMAP server),MIT+LGPL,http://dovecot.org/
-dropbear,2018.76,Dropbear SSH,MIT-style,https://matt.ucc.asn.au/dropbear/dropbear.html
+dropbear,2019.78,Dropbear SSH,MIT-style,https://matt.ucc.asn.au/dropbear/dropbear.html
 dtach,0.9,dtach,GPLv2,http://dtach.sourceforge.net
 ed,1.15,GNU ed,GPLv3,https://www.gnu.org/software/ed/
 elinks,0.13,ELinks,GPL,http://elinks.cz/
