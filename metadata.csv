@@ -23,7 +23,7 @@ bc,1.07.1,Arbitrary precision numeric language,GPLv3,https://www.gnu.org/softwar
 bip,0.8.9,Bip,GPL,http://bip.milkypond.org
 bison,3.3.2,GNU bison,GPLv3,https://www.gnu.org/software/bison
 bmake,20170812,bmake,BSD,http://crufty.net/help/sjg/bmake.html
-boost,1.63.0,Boost C++ Libraries,Boost Software License,http://www.boost.org/
+boost,1.72.0,Boost C++ Libraries,Boost Software License,http://www.boost.org/
 bootstrap,3.3.7,Bootstrap,MIT,http://getbootstrap.com
 bvi,1.4.0,Bvi,GPL,http://bvi.sourceforge.net/
 bzr,2.7.0,Bazaar,GPLv2,https://bazaar.canonical.com/
@@ -44,7 +44,7 @@ cscope,15.8b,Cscope,BSD,http://cscope.sourceforge.net/
 ctags,5.8,Exuberant Ctags,GPL,http://ctags.sourceforge.net/
 ctemplate,2.2,CTemplate,BSD,https://github.com/olafvdspek/ctemplate
 cvs,1.11.23,CVS,GPLv2+,http://www.nongnu.org/cvs/
-cython,0.27.3,Cython,Apache License,http://www.cython.org/
+cython,0.29.15,Cython,Apache License,http://www.cython.org/
 dash,0.5.9.1,DASH,BSD,http://gondor.apana.org.au/~herbert/dash/
 dasm,2.20.11,dasm,GPL,http://dasm-dillon.sourceforge.net
 datamash,1.4,GNU Datamash,GPLv3,https://www.gnu.org/software/datamash/
@@ -62,7 +62,7 @@ elinks,0.13,ELinks,GPL,http://elinks.cz/
 elixir,1.4.1,Elixir,Apache License,http://elixir-lang.org
 emacs,26.2,GNU Emacs,GPLv3,https://www.gnu.org/software/emacs/
 epic5,1.1.10,EPIC5,BSD,http://epicsol.org/
-erlang,22.0,Erlang/OTP,Apache License,http://www.erlang.org/
+erlang,22.3,Erlang/OTP,Apache License,http://www.erlang.org/
 expat,2.2.9,Expat XML Parser,MIT,https://libexpat.github.io/
 ffmpeg,4.1.3,FFmpeg,LGPLv2.1+,http://ffmpeg.org
 figlet,2.2.5,FIGlet,The Academic Free License,http://www.figlet.org/
@@ -305,5 +305,5 @@ yajl,2.1.0,YAJL,ISC,https://lloyd.github.io/yajl/
 yasm,1.3.0,The Yasm Modular Assembler,BSD,http://yasm.tortall.net/
 zile,2.4.11,GNU Zile,GPL,http://www.gnu.org/software/zile/
 zlib,1.2.11,Zlib,zlib License,http://www.zlib.net
-zsh,5.7.1,Z shell,MIT-like,http://www.zsh.org
+zsh,5.8,Z shell,MIT-like,http://www.zsh.org
 zsync,0.6.2,Zsync is a file transfer program,Artistic License,http://zsync.moria.org.uk
