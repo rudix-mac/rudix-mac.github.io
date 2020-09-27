@@ -11,9 +11,9 @@ logger = logging.getLogger(sys.argv[0])
 GITHUB_URL = 'https://raw.githubusercontent.com/rudix-mac/packages/master'
 
 MACOS_VERSIONS = {
-    'macos10.11': 'OS X 10.11 (El Capitan)',
-    'macos10.14': 'macOS 10.14 (Mojave)',
-    'macos10.15': 'macOS 10.15 (Catalina)',
+    'macos10.11': 'OS X El Capitan (Version 10.11)',
+    'macos10.14': 'macOS Mojave (Version 10.14)',
+    'macos10.15': 'macOS Catalina (Version 10.15)',
 }
 
 MacOSpkgs = {
@@ -24,9 +24,9 @@ MacOSpkgs = {
 
 BeginPackageTable =  """<table>
 <caption>%s</caption>
-<tr><th>Package</th><th>Summary</th><th id='optionalA'>License</th><th id='optionalB'>Homepage</th></tr>
+<tr><th>Title</th><th>Package</th></tr>
 """
-PackageRow = '<tr><td><a href="%s/%s">%s</a></td><td>%s</td><td id="optionalA">%s</td><td id="optionalB"><a href="%s">%s</a></td></tr>\n'
+PackageRow = '<tr><td>%s</td><td><a href="%s/%s">%s</a></td></tr>\n'
 EndPackageTable = "</table>\n"
 
 
@@ -86,7 +86,7 @@ def create_table(html, macosver, metadata, url):
             name_version = '%s-%s' % (row[0], row[1])
             if package.startswith(name_version):
                 html += PackageRow % (
-                    url, package, package, row[2], row[3], row[4], row[4])
+                    row[2], url, package, package)
     html += EndPackageTable
     return html
 
@@ -100,14 +100,14 @@ def process():
     for package in packages:
         if package.endswith('-macos10.11.pkg'):
             MacOSpkgs['macos10.11'].append(package)
-        elif package.endswith('-macos10.14.pkg'):
-            MacOSpkgs['macos10.14'].append(package)
+#        elif package.endswith('-macos10.14.pkg'):
+#            MacOSpkgs['macos10.14'].append(package)
         elif package.endswith('-macos10.15.pkg'):
             MacOSpkgs['macos10.15'].append(package)
         else:
             MacOSpkgs['macos10.11'].append(package)
     html = create_table(html, 'macos10.15', metadata, args.url)
-    html = create_table(html, 'macos10.14', metadata, args.url)
+    #html = create_table(html, 'macos10.14', metadata, args.url)
     html = create_table(html, 'macos10.11', metadata, args.url)
     html += EndPackageTable
     html += args.end.read()

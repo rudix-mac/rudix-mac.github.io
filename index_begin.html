@@ -9,12 +9,35 @@
     <link rel="icon" href="favicon.ico">
   </head>
   <body> 
-    <h1>Welcome to Rudix!</h1>
-    <img src="img/Rudix.png"
-         align="center"
-         alt="Rudix, green retangle background (like a screen) with a package ilustration on the top." 
-         title="Rudix: ports and packages for macOS"
-         width="50%" height="50%">
-    <p>Rudix is a build system target on macOS and offers pre-built packages for this platform. The build system has some support for Linux, OpenBSD, FreeBSD and NetBSD. If you want to know more about the project and want to contribute, please, visit us on <a href="https://github.com/rudix-mac/">github.com/rudix-mac</a>.</p>
-    <h2>Packages for macOS</h2>
-    <p>These packages are known to work on <strong>El Capitan</strong> (OS X 10.11), <strong>Mojave</strong> (macOS 10.14) and <strong>Catalina</strong> (macOS 10.15).  Check the <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/MD5.txt">MD5</a>, <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA1.txt">SHA-1</a>, <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA256.txt">SHA-256</a> and the file <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SIZES.txt">SIZES</a>.</p>
+  <h1>Welcome to Rudix!</h1>
+  <a href="https://rudix.org"><img src="img/Rudix.png"
+       align="right"
+       title="Rudix Logo"
+       width="25%" height="25%"></a>
+  <p>Rudix is a build system target on macOS (formerly known as Mac OS X) with minor support to OpenBSD, FreeBSD, NetBSD and Linux. The build system (also called "ports") provides step-by-step instructions for building third-party software, entirely from source code.</p>
+
+  <p>Rudix provides more than a pure ports framework, it comes with <strong>packages</strong>, precompiled software bundled up in a nice format (files <code>*.pkg</code>) for easy installation on your Mac.  If you want to collaborate to the project, visit us at <a href="https://github.com/rudix-mac/">GitHub/rudix-mac</a> or at our mirror at <a href="https://gitlab.com/rudix/">GitLab/rudix</a>. Similar projects or alternatives to Rudix are
+    <a href="https://finkproject.org">Fink</a>,
+    <a href="https://www.macports.org">MacPorts</a>,
+    <a href="https://www.pkgsrc.org">pkgsrc</a> and
+    <a href="https://brew.sh">Homebrew</a>.</p>
+
+
+  <h2>Packages for macOS</h2>  
+  <p>Packages are compiled and tested on macOS <strong>Catalina</strong> (Version 10.15) and OS X <strong>El Capitan</strong> (Version 10.11). Every package is self-contained and has everything it needs to work. The binaries, libraries and documentation will be installed under <code>/usr/local/</code>. Check the
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/MD5.txt">MD5</a>,
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA1.txt">SHA-1</a>,
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA256.txt">SHA-256</a> and 
+  the file
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SIZES.txt">SIZES</a> after downloading any package from this site.</p>
+  <p>Please, Consider donating if you would like to see more of this work.</p>
+
+  <center>
+    PayPal (USD)
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick" />
+    <input type="hidden" name="hosted_button_id" value="8DJE9ESM8L4GW" />
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+  </center>
