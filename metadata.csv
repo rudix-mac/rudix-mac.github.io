@@ -199,7 +199,7 @@ mpfr,4.0.1,GNU MPFR,LGPLv3/GPLv3,https://www.mpfr.org/
 mpg123,1.22.4,MPG123,LGPL,http://www.mpg123.de/
 mpop,1.0.28,mpop,GPL,http://mpop.sourceforge.net/
 msmtp,1.4.31,msmtp,GPL,http://msmtp.sourceforge.net/
-mtr,0.86,MTR,GPLv2,https://github.com/traviscross/mtr
+mtr,0.92,MTR,GPLv2,https://github.com/traviscross/mtr
 mutt,1.5.23,Mutt,GPL,http://www.mutt.org/
 mysqldb,1.2.3,MySQLdb (Python Module),GPL,http://sourceforge.net/projects/mysql-python/
 nano,4.2,GNU nano,GPLv3,https://www.nano-editor.org
@@ -279,7 +279,7 @@ tcptrace,6.6.7,tcptrace,Public Domain,http://www.tcptrace.org/index.shtml
 tcsh,6.20.00,Tcsh,BSD,http://www.tcsh.org/Home
 texinfo,6.6,Texinfo,GPLv3+,http://savannah.gnu.org/projects/texinfo
 thttpd,2.26,Tiny/turbo/throttling HTTP server,BSD,http://www.acme.com/software/thttpd/
-tig,2.4.1,Tig,GPLv2,https://jonas.github.io/tig/
+tig,2.5.1,Tig,GPLv2,https://jonas.github.io/tig/
 tload,3.2.8,Tload,GPL,https://github.com/ruda/tload/
 tmux,2.9,TMux,BSD,https://github.com/tmux/tmux/wiki
 trac,1.0.1,Trac,BSD,http://trac.edgewall.org
