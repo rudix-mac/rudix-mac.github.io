@@ -60,7 +60,8 @@ dtach,0.9,dtach,GPLv2,http://dtach.sourceforge.net
 ed,1.15,GNU ed,GPLv3,https://www.gnu.org/software/ed/
 elinks,0.13,ELinks,GPL,http://elinks.cz/
 elixir,1.4.1,Elixir,Apache License,http://elixir-lang.org
-emacs,26.2,GNU Emacs,GPLv3,https://www.gnu.org/software/emacs/
+emacs,26.3,GNU Emacs,GPLv3,https://www.gnu.org/software/emacs
+emacs,27.1,GNU Emacs,GPLv3,https://www.gnu.org/software/emacs
 epic5,1.1.10,EPIC5,BSD,http://epicsol.org/
 erlang,22.3,Erlang/OTP,Apache License,http://www.erlang.org/
 expat,2.2.9,Expat XML Parser,MIT,https://libexpat.github.io/
