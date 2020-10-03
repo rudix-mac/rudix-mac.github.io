@@ -179,7 +179,7 @@ links,2.18,Links,GPLv2,http://links.twibright.com
 lsh,2.1,LSH (Secure Shell),GPL,http://www.lysator.liu.se/~nisse/lsh
 lua,5.3.6,Lua,MIT,http://www.lua.org
 lua,5.4.0,Lua,MIT,http://www.lua.org
-luajit,2.0.4,LuaJIT,MIT,http://luajit.org
+luajit,2.0.5,LuaJIT,MIT,http://luajit.org
 luarocks,2.4.1,LuaRocks,MIT,https://luarocks.org
 lunzip,1.11,Lunzip,GPLv2,https://www.nongnu.org/lzip
 lynx,2.8.9,Lynx,GPL,http://lynx.isc.org
