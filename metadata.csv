@@ -83,7 +83,8 @@ gcc,8.2.0,GCC,GPL/LGPL,https://gcc.gnu.org
 gcl,2.6.12,GNU Common Lisp,,http://www.gnu.org/software/gcl/
 gdbm,1.12,GNU dbm,GPL,http://www.gnu.org.ua/software/gdbm/
 getopt,1.1.6,Getopt,GPL,http://software.frodo.looijaard.name/getopt/
-gettext,0.20.1,GNU gettext,GPLv3,https://www.gnu.org/software/gettext/
+gettext,0.21,GNU gettext,GPLv3,https://www.gnu.org/software/gettext
+gettext,0.20.1,GNU gettext,GPLv3,https://www.gnu.org/software/gettext
 gforth,0.7.3,Gforh,GPL,http://www.gnu.org/software/gforth/
 git,2.11.1,Git,GPL,http://git-scm.com/
 glib,2.54.3,GLib,GPLv2,https://www.gtk.org
@@ -140,12 +141,14 @@ lftp,4.8.4,LFTP,GPL,http://lftp.yar.ru/
 libao,1.2.0,Libao,GPL,http://xiph.org/ao/
 libcerf,1.11,libcerf,GPLv3,http://apps.jcns.fz-juelich.de/doku/sc/libcerf
 libdnet,1.12,Dumb Networking Library,BSD,https://github.com/dugsong/libdnet/
-libev,4.22,Libev,BSD|GPLv2,http://software.schmorp.de/pkg/libev.html
+libev,4.22,Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
+libev,4.33,Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 libevent,2.1.8,LibEvent,BSD,https://libevent.org
 libffi,3.2.1,LibFFI,MIT,https://sourceware.org/libffi/
 libgsasl,1.8.0,GNU SASL Library,GPL,http://www.gnu.org/software/gsasl/
 libidn,1.33,GNU IDN Library,GPL+LGPL,http://www.gnu.org/software/libidn/
-libintl,0.20.1,GNU libintl,GPLv3,https://www.gnu.org/software/gettext/
+libintl,0.21,GNU libintl,GPLv3,https://www.gnu.org/software/gettext
+libintl,0.20.1,GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 libjpeg,9c,LibJPEG,BSD-like,http://www.ijg.org/
 libmemcached,1.0.18,libMemcached,BSD,http://libmemcached.org/
 libntlm,1.4,Libntlm,LGPL,http://www.nongnu.org/libntlm/
@@ -308,3 +311,6 @@ zile,2.4.11,GNU Zile,GPL,http://www.gnu.org/software/zile/
 zlib,1.2.11,Zlib,zlib License,http://www.zlib.net
 zsh,5.8,Z shell,MIT-like,http://www.zsh.org
 zsync,0.6.2,Zsync is a file transfer program,Artistic License,http://zsync.moria.org.uk
+static-gettext,0.21,[Static lib] GNU gettext,GPLv3,https://www.gnu.org/software/gettext
+static-libev,4.33,[Static lib] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
+static-libintl,0.21,[Static lib] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
