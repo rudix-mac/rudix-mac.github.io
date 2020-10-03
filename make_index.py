@@ -27,14 +27,12 @@ BeginPackageTable =  """<table>
 <tr>
   <th>Package</th>
   <th>Summary</th>
-  <th>Version</th>
   <th id='optionalB'>License</th>
   <th id='optionalA'>Homepage</th>
 </tr>
 """
 PackageRow = """<tr>
   <td><a href="%s/%s">%s</a></td>
-  <td>%s</td>
   <td>%s</td>
   <td id='optionalB'>%s</td>
   <td id='optionalA'><a href="%s">%s</a></td>
@@ -97,12 +95,13 @@ def create_table(html, macosver, metadata, url):
         for row in metadata:
             logger.debug('create_table:metadata:%s', row)
             name_version = '%s-%s' % (row[0], row[1])
+            summary = '%s %s' % (row[2], row[1])
             homepage = row[4]
             homepage = homepage.replace('https://', '')
             homepage = homepage.replace('http://', '')
             if package.startswith(name_version):
                 html += PackageRow % (
-                    url, package, package, row[2], row[1], row[3], row[4], homepage)
+                    url, package, package, summary, row[3], row[4], homepage)
     html += EndPackageTable
     return html
 
