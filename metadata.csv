@@ -83,8 +83,8 @@ gcc,8.2.0,GCC,GPL/LGPL,https://gcc.gnu.org
 gcl,2.6.12,GNU Common Lisp,,http://www.gnu.org/software/gcl
 gdbm,1.12,GNU dbm,GPL,http://www.gnu.org.ua/software/gdbm
 getopt,1.1.6,Getopt,GPL,http://software.frodo.looijaard.name/getopt
-gettext,0.21,GNU gettext,GPLv3,https://www.gnu.org/software/gettext
 gettext,0.20.1,GNU gettext,GPLv3,https://www.gnu.org/software/gettext
+gettext,0.21,GNU gettext,GPLv3,https://www.gnu.org/software/gettext
 gforth,0.7.3,Gforh,GPL,http://www.gnu.org/software/gforth
 git,2.11.1,Git,GPL,http://git-scm.com
 glib,2.54.3,GLib,GPLv2,https://www.gtk.org
@@ -147,8 +147,8 @@ libevent,2.1.8,LibEvent,BSD,https://libevent.org
 libffi,3.2.1,LibFFI,MIT,https://sourceware.org/libffi
 libgsasl,1.8.0,GNU SASL Library,GPL,http://www.gnu.org/software/gsasl
 libidn,1.33,GNU IDN Library,GPL+LGPL,http://www.gnu.org/software/libidn
-libintl,0.21,GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 libintl,0.20.1,GNU libintl,GPLv3,https://www.gnu.org/software/gettext
+libintl,0.21,GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 libjpeg,9c,LibJPEG,BSD-like,http://www.ijg.org
 libmemcached,1.0.18,libMemcached,BSD,http://libmemcached.org
 libntlm,1.4,Libntlm,LGPL,http://www.nongnu.org/libntlm
@@ -233,12 +233,13 @@ p7zip,16.02,P7ZIP,LGPL,http://p7zip.sourceforge.net
 pango,1.30.1,Pango,LGPL,http://www.pango.org
 parallel,20141122,GNU Parallel,GPL,http://savannah.gnu.org/projects/parallel
 patchutils,0.3.4,Patch utilities,GPL,http://cyberelk.net/tim/software/patchutils
-pcre,8.42,PCRE,BSD,https://www.pcre.org
+pcre,8.44,PCRE,BSD,https://www.pcre.org
 pdns,3.2,PowerDNS,GPL,http://www.powerdns.com
 pdns-recursor,3.5.2,PowerDNS Recursor,GPL,http://www.powerdns.com
 pigz,2.3,pigz (parallel gzip),zlib,http://zlib.net/pigz
 pixman,0.34.0,Pixman,MIT,http://pixman.org
 pkg-config,0.29.2,Pkg-Config,GPL,https://www.freedesktop.org/wiki/Software/pkg-config
+pkgconf,1.7.3,pkgconf,ISC,http://pkgconf.org
 popt,1.16,Popt,BSD,http://rpm5.org
 portaudio,v19,PortAudio,MIT,http://www.portaudio.com
 protobuf,3.5.1,Protocol Buffers,BSD,https://developers.google.com/protocol-buffers
@@ -251,8 +252,8 @@ rdiff-backup,1.2.8,Rdiff-backup,GPL,http://rdiff-backup.nongnu.org
 readline,8.0,GNU Readline,GPLv3,https://tiswww.case.edu/php/chet/readline/rltop.html
 redis,4.0.11,Redis,BSD,https://redis.io
 redis,5.0.5,Redis,BSD,https://redis.io
-rsync,3.1.1,Rsync,GPL,http://samba.org/rsync
 rsnapshot,1.4.3,rsnapshot,GPLv2,https://rsnapshot.org
+rsync,3.1.1,Rsync,GPL,http://samba.org/rsync
 rtorrent,0.9.2,rTorrent,GPL,http://libtorrent.rakshasa.no
 rudix,2016.12.13,Rudix Package Manager,BSD,https://github.com/rudix-mac/rpm
 rust,1.7.0,Rust Language,MIT+Apache License+BSD,http://www.rust-lang.org
@@ -271,6 +272,11 @@ sox,14.4.1,SoX,GPL+LGPL,http://sox.sourceforge.net
 sqlite,3.12.2,SQLite,Public Domain,http://www.sqlite.org
 squid,3.5.7,Squid Caching Proxy,GPL,http://www.squid-cache.org
 ssldump,0.9b3,SSLdump,BSD,http://www.rtfm.com/ssldump
+static-gettext,0.21,[Static] GNU gettext,GPLv3,https://www.gnu.org/software/gettext
+static-libev,4.33,[Static] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
+static-libintl,0.21,[Static] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
+static-pcre,8.44,[Static] PCRE,BSD,https://www.pcre.org
+static-pkgconf,1.7.3,[Static] pkgconf,ISC,http://pkgconf.org
 stlink,1.5.1,STLink,BSD,http://example.org
 stm32flash,0.5,stm32flash,GPL,https://sourceforge.net/p/stm32flash/wiki/Home
 strongswan,5.1.0,StrongSwan,GPL,http://www.strongswan.org
@@ -313,6 +319,3 @@ zile,2.4.11,GNU Zile,GPL,http://www.gnu.org/software/zile
 zlib,1.2.11,Zlib,zlib License,http://www.zlib.net
 zsh,5.8,Z shell,MIT-like,http://www.zsh.org
 zsync,0.6.2,Zsync is a file transfer program,Artistic License,http://zsync.moria.org.uk
-static-gettext,0.21,[Static lib] GNU gettext,GPLv3,https://www.gnu.org/software/gettext
-static-libev,4.33,[Static lib] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
-static-libintl,0.21,[Static lib] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
