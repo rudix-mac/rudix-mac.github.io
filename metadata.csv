@@ -273,6 +273,7 @@ sqlite,3.12.2,SQLite,Public Domain,http://www.sqlite.org
 squid,3.5.7,Squid Caching Proxy,GPL,http://www.squid-cache.org
 ssldump,0.9b3,SSLdump,BSD,http://www.rtfm.com/ssldump
 static-gettext,0.21,[Static] GNU gettext,GPLv3,https://www.gnu.org/software/gettext
+static-gmp,6.1.2,[Static] GNU MP,GPLv2/LGPLv3,https://gmplib.org
 static-libev,4.33,[Static] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 static-libintl,0.21,[Static] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 static-pcre,8.44,[Static] PCRE,BSD,https://www.pcre.org
