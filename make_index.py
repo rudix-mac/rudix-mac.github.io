@@ -22,7 +22,7 @@ MacOSpkgs = {
     'macos10.15': [],
 }
 
-BeginPackageTable =  """<table>
+BeginPackageTable =  """<table id='%s'>
 <caption>%s</caption>
 <tr>
   <th>Summary</th>
@@ -89,7 +89,7 @@ def parse_args():
 
 def create_table(html, macosver, metadata, url):
     title = '%s' % MACOS_VERSIONS[macosver]
-    html += BeginPackageTable % (title)
+    html += BeginPackageTable % (macosver, title)
     for package in MacOSpkgs[macosver]:
         logger.debug('create_table:%s:%s', macosver, package)
         for row in metadata:

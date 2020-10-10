@@ -16,7 +16,7 @@
        width="25%" height="25%"></a>
   <p>Rudix is a build system target on macOS (formerly known as Mac OS X) with minor support to OpenBSD, FreeBSD, NetBSD and Linux. The build system (also called "ports") provides step-by-step instructions for building third-party software, entirely from source code.</p>
 
-  <p>Rudix provides more than a pure ports framework, it comes with <strong>packages</strong>, precompiled software bundled up in a nice format (files <code>*.pkg</code>) for easy installation on your Mac.  If you want to collaborate to the project, visit us at <a href="https://github.com/rudix-mac/">GitHub/rudix-mac</a> or at our mirror at <a href="https://gitlab.com/rudix/">GitLab/rudix</a>. Use the GitHub <a href="https://github.com/rudix-mac/rudix/issues">issue tracker</a> to submit bugs or request features.</p>
+  <p>Rudix provides more than a pure ports framework, it comes with <a href="#packages">packages</a>, precompiled software bundled up in a nice format (files <code>*.pkg</code>) for easy installation on your Mac.  If you want to collaborate to the project, visit us at <a href="https://github.com/rudix-mac/">GitHub/rudix-mac</a> or at our mirror at <a href="https://gitlab.com/rudix/">GitLab/rudix</a>. Use the GitHub <a href="https://github.com/rudix-mac/rudix/issues">issue tracker</a> to submit bugs or request features.</p>
   
   <p>Similar projects or alternatives to Rudix are
     <a href="https://finkproject.org">Fink</a>,
@@ -24,18 +24,14 @@
     <a href="https://www.pkgsrc.org">pkgsrc</a> and
     <a href="https://brew.sh">Homebrew</a>.</p>
 
-
-  <h2>Packages for macOS</h2>  
-  <p>Packages are compiled and tested on macOS <strong>Catalina</strong> (Version 10.15) and OS X <strong>El Capitan</strong> (Version 10.11). Every package is self-contained and has everything it needs to work. The binaries, libraries and documentation will be installed under <code>/usr/local/</code>. Check the
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/MD5.txt">MD5</a>,
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA1.txt">SHA-1</a>,
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA256.txt">SHA-256</a> and 
-  the file
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SIZES.txt">SIZES</a> after downloading any package from this site.</p>
-  <p>Please, Consider donating if you would like to see more of this work.</p>
+  <h2 id="news">News</h2>
+  <ul>
+    <li>October 09, 2020. Updated pcre to version 8.44. Included pkgconf version 1.7.3</li>
+    <li>October 03, 2020. Updated lua to version 5.4.0. Updated luajit to version 2.0.5. Updated make to version 4.3. Updated gettext and libintl to version 0.21</li>
+  </ul>
 
   <center>
-    PayPal (USD)
+    <p id="donate"><strong>Consider donating if you would like to see more of this work</strong>.<br>PayPal (USD)</p>
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick" />
     <input type="hidden" name="hosted_button_id" value="8DJE9ESM8L4GW" />
@@ -43,7 +39,14 @@
     <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
     </form>
   </center>
-<table>
+
+  <h2 id="packages">Packages for macOS</h2>
+  <p>Packages are compiled and tested on macOS <a href="#macos10.15">Catalina</a> (Version 10.15) and OS X <a href="#macos10.11">El Capitan</a> (Version 10.11). Every package is self-contained and has everything it needs to work. The binaries, libraries and documentation will be installed under <code>/usr/local/</code>. Check the
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/MD5.txt">MD5</a>,
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA1.txt">SHA-1</a>,
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA256.txt">SHA-256</a> and the file
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SIZES.txt">SIZES</a> after downloading any package from this site.</p>
+<table id='macos10.15'>
 <caption>macOS Catalina (Version 10.15)</caption>
 <tr>
   <th>Summary</th>
@@ -1066,7 +1069,7 @@
   <td id='optionalA'><a href="http://zsync.moria.org.uk">zsync.moria.org.uk</a></td>
 </tr>
 </table>
-<table>
+<table id='macos10.11'>
 <caption>OS X El Capitan (Version 10.11)</caption>
 <tr>
   <th>Summary</th>
