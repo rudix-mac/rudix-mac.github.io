@@ -25,15 +25,15 @@ MacOSpkgs = {
 BeginPackageTable =  """<table id='%s'>
 <caption>%s</caption>
 <tr>
-  <th>Summary</th>
   <th>Package</th>
+  <th>Summary</th>
   <th id='optionalB'>License</th>
   <th id='optionalA'>Homepage</th>
 </tr>
 """
 PackageRow = """<tr>
-  <td>%s</td>
   <td><a href="%s/%s">%s</a></td>
+  <td>%s</td>
   <td id='optionalB'>%s</td>
   <td id='optionalA'><a href="%s">%s</a></td>
 </tr>
@@ -101,7 +101,7 @@ def create_table(html, macosver, metadata, url):
             homepage = homepage.replace('http://', '')
             if package.startswith(name_version):
                 html += PackageRow % (
-                    summary, url, package, package, row[3], row[4], homepage)
+                    url, package, package, summary, row[3], row[4], homepage)
     html += EndPackageTable
     return html
 
