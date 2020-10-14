@@ -87,7 +87,7 @@ gettext,0.20.1,GNU gettext,GPLv3,https://www.gnu.org/software/gettext
 gettext,0.21,GNU gettext,GPLv3,https://www.gnu.org/software/gettext
 gforth,0.7.3,Gforh,GPL,http://www.gnu.org/software/gforth
 git,2.11.1,Git,GPL,http://git-scm.com
-glib,2.54.3,GLib,GPLv2,https://www.gtk.org
+glib,2.54.3,GLib,LGPLv2,https://www.gtk.org
 global,6.6.3,GNU Global,GPLv3,https://www.gnu.org/software/global
 gloox,1.0.18,Gloox,GPL,http://camaya.net/gloox
 gmp,6.1.2,GNU MP,GPLv2/LGPLv3,https://gmplib.org
@@ -273,6 +273,7 @@ sqlite,3.12.2,SQLite,Public Domain,http://www.sqlite.org
 squid,3.5.7,Squid Caching Proxy,GPL,http://www.squid-cache.org
 ssldump,0.9b3,SSLdump,BSD,http://www.rtfm.com/ssldump
 static-gettext,0.21,[Static] GNU gettext,GPLv3,https://www.gnu.org/software/gettext
+static-glib,2.54.3,[Static] GLib,LGPLv2,https://www.gtk.org
 static-gmp,6.1.2,[Static] GNU MP,GPLv2/LGPLv3,https://gmplib.org
 static-libev,4.33,[Static] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 static-libintl,0.21,[Static] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
