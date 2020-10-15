@@ -58,6 +58,7 @@ dovecot,2.2.27,Dovecot (Secure IMAP server),MIT+LGPL,http://dovecot.org
 dropbear,2019.78,Dropbear SSH,MIT-style,https://matt.ucc.asn.au/dropbear/dropbear.html
 dtach,0.9,dtach,GPLv2,http://dtach.sourceforge.net
 ed,1.15,GNU ed,GPLv3,https://www.gnu.org/software/ed
+ed,1.16,GNU ed,GPLv3,https://www.gnu.org/software/ed
 elinks,0.13,ELinks,GPL,http://elinks.cz
 elixir,1.4.1,Elixir,Apache License,http://elixir-lang.org
 emacs,26.3,GNU Emacs,GPLv3,https://www.gnu.org/software/emacs
@@ -263,6 +264,7 @@ screen,4.4.0,GNU Screen,GPLv3,http://www.gnu.org/software/screen
 sdcc,3.4.0,SDCC,GPL,http://sdcc.sourceforge.net
 sdl,1.2.15,SDL,LGPL,http://www.libsdl.org
 sed,4.7,GNU Sed,GPLv3,https://www.gnu.org/software/sed
+sed,4.8,GNU Sed,GPLv3,https://www.gnu.org/software/sed
 serf,1.2.0,Serf (Library),Apache License,http://code.google.com/p/serf
 sexpr,1.2.1,sfsexp,LGPL,http://sexpr.sourceforge.net
 simh,3.9,SIMH,MIT,http://simh.trailing-edge.com
@@ -304,7 +306,7 @@ unrar,5.0.1,unRAR,Freeware,http://www.rarlab.com
 valgrind,3.8.1,Valgrind,GPL,http://valgrind.org
 varnish,3.0.3,Varnish Cache,BSD,https://www.varnish-cache.org
 vifm,0.8,Vifm,GPL,http://vifm.info
-vim,8.1,Vim,Charityware (GPL-compatible),https://www.vim.org
+vim,8.2.1845,Vim,Vim License,https://www.vim.org
 vstr,1.0.15,Vstr,LGPL,http://www.and.org/vstr
 w3m,0.5.3,w3m,GPL,http://w3m.sourceforge.net
 wbox,5,WBox,BSD,http://hping.org/wbox
