@@ -159,7 +159,7 @@ libpcap,1.6.2,Libpcap,BSD,http://www.tcpdump.org
 libpipeline,1.4.0,Libpipeline,GPL,http://www.nongnu.org/libpipeline
 libpng,1.6.14,PNG,BSD,http://www.libpng.org/pub/png
 libpsl,0.20.2,LibPSL,MIT,https://github.com/rockdaboot/libpsl
-libressl,2.9.2,LibreSSL,OpenSSL License,https://www.libressl.org
+libressl,3.1.4,LibreSSL,OpenSSL License,https://www.libressl.org
 librsync,0.9.7,Librsync,LGPL,http://librsync.sourceforge.net
 libsigcpp,2.2.10,Libsigc++,LGPL,http://libsigc.sourceforge.net
 libsigsegv,2.10,GNU libsigsegv,GPL,http://www.gnu.org/software/libsigsegv
@@ -229,6 +229,7 @@ ntfs-3g_ntfsprogs,2017.3.23,Tuxera Open Source: NTFS-3G,LGPL/GPL,https://www.tux
 ocaml,4.03.0,OCaml,QPLv1+LGPLv2,http://caml.inria.fr
 offlineimap,6.5.6,Offline IMAP,GPL,http://offlineimap.org
 openjpeg,2.3.0,OpenJPEG,BSD,https://github.com/uclouvain/openjpeg
+openssl,1.1.1h,OpenSSL,OpenSSL License,https://www.openssl.org
 optipng,0.7.5,OptiPNG,zlib,http://optipng.sourceforge.net
 p7zip,16.02,P7ZIP,LGPL,http://p7zip.sourceforge.net
 pango,1.30.1,Pango,LGPL,http://www.pango.org
@@ -279,6 +280,7 @@ static-glib,2.54.3,[Static] GLib,LGPLv2,https://www.gtk.org
 static-gmp,6.1.2,[Static] GNU MP,GPLv2/LGPLv3,https://gmplib.org
 static-libev,4.33,[Static] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 static-libintl,0.21,[Static] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
+static-libressl,3.1.4,[Static] LibreSSL,OpenSSL License,https://www.libressl.org
 static-pcre,8.44,[Static] PCRE,BSD,https://www.pcre.org
 static-pkgconf,1.7.3,[Static] pkgconf,ISC,http://pkgconf.org
 stlink,1.5.1,STLink,BSD,http://example.org
