@@ -145,7 +145,7 @@ libcerf,1.11,libcerf,GPLv3,http://apps.jcns.fz-juelich.de/doku/sc/libcerf
 libdnet,1.12,Dumb Networking Library,BSD,https://github.com/dugsong/libdnet
 libev,4.22,Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 libev,4.33,Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
-libevent,2.1.8,LibEvent,BSD,https://libevent.org
+libevent,2.1.12,LibEvent,BSD,https://libevent.org
 libffi,3.2.1,LibFFI,MIT,https://sourceware.org/libffi
 libgsasl,1.8.0,GNU SASL Library,GPL,http://www.gnu.org/software/gsasl
 libidn,1.33,GNU IDN Library,GPL+LGPL,http://www.gnu.org/software/libidn
@@ -282,6 +282,7 @@ static-gettext,0.21,[Static] GNU gettext,GPLv3,https://www.gnu.org/software/gett
 static-glib,2.54.3,[Static] GLib,LGPLv2,https://www.gtk.org
 static-gmp,6.1.2,[Static] GNU MP,GPLv2/LGPLv3,https://gmplib.org
 static-libev,4.33,[Static] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
+static-libevent,2.1.12,[Static] LibEvent,BSD,https://libevent.org
 static-libintl,0.21,[Static] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 static-libressl,3.1.4,[Static] LibreSSL,OpenSSL License,https://www.libressl.org
 static-pcre,8.44,[Static] PCRE,BSD,https://www.pcre.org
