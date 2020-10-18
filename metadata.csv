@@ -5,8 +5,8 @@ abcmidi,2015.08.11,abcMIDI,GPLv2,http://ifdo.pugmarks.com/%7Eseymour/runabc/top.
 abnfgen,0.17,abnfgen,Freeware?,http://www.quut.com/abnfgen
 ack,2.20,Ack!,Artistic License,http://beyondgrep.com
 aewan,1.0.01,Aewan,GPLv2,https://sourceforge.net/projects/aewan
-apr,1.5.2,Apache Portable Runtime,Apache License,http://apr.apache.org
-apr-util,1.5.4,Apache Portable Runtime Utility,Apache License,http://apr.apache.org
+apr,1.7.0,Apache Portable Runtime,Apache License,https://apr.apache.org
+apr-util,1.6.1,Apache Portable Runtime Utility,Apache License,https://apr.apache.org
 argtable,2.13,Argtable,LGPL,http://argtable.sourceforge.net
 aria2,1.31.0,aria2,GPL,https://aria2.github.io
 arp-scan,1.9,Arp Scan,GPL,http://www.nta-monitor.com/tools-resources/security-tools/arp-scan
@@ -217,7 +217,7 @@ ncdu,1.10,NCurses Disk Usage,MIT,http://dev.yorhel.nl/ncdu
 ncftp,3.2.6,NcFTP Client,The Clarified Artistic License,http://www.ncftp.com
 ncurses,6.1,GNU ncurses,GPLv3,http://www.invisible-island.net/ncurses
 ne,3.1.2,Nice Editor,GPL,http://ne.di.unimi.it
-neon,0.30.1,Neon,LGPL,http://www.webdav.org/neon
+neon,0.31.2,Neon,LGPLv2+,https://notroj.github.io/neon
 nettle,3.4.1,Nettle,LGPL/GPL,http://www.lysator.liu.se/~nisse/nettle
 nginx,1.7.2,Nginx,BSD,http://nginx.org
 ngrep,1.45,ngrep,BSD like,http://ngrep.sourceforge.net
@@ -278,6 +278,7 @@ sox,14.4.1,SoX,GPL+LGPL,http://sox.sourceforge.net
 sqlite,3.12.2,SQLite,Public Domain,http://www.sqlite.org
 squid,3.5.7,Squid Caching Proxy,GPL,http://www.squid-cache.org
 ssldump,0.9b3,SSLdump,BSD,http://www.rtfm.com/ssldump
+static-apr,1.7.0,[Static] Apache Portable Runtime,Apache License,https://apr.apache.org
 static-gettext,0.21,[Static] GNU gettext,GPLv3,https://www.gnu.org/software/gettext
 static-glib,2.54.3,[Static] GLib,LGPLv2,https://www.gtk.org
 static-gmp,6.1.2,[Static] GNU MP,GPLv2/LGPLv3,https://gmplib.org
@@ -285,13 +286,14 @@ static-libev,4.33,[Static] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 static-libevent,2.1.12,[Static] LibEvent,BSD,https://libevent.org
 static-libintl,0.21,[Static] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 static-libressl,3.1.4,[Static] LibreSSL,OpenSSL License,https://www.libressl.org
+static-neon,0.31.2,[Static] Neon,LGPLv2+,https://notroj.github.io/neon
 static-pcre,8.44,[Static] PCRE,BSD,https://www.pcre.org
 static-pkgconf,1.7.3,[Static] pkgconf,ISC,http://pkgconf.org
 stlink,1.5.1,STLink,BSD,http://example.org
 stm32flash,0.5,stm32flash,GPL,https://sourceforge.net/p/stm32flash/wiki/Home
 strongswan,5.1.0,StrongSwan,GPL,http://www.strongswan.org
 stunnel,5.23,Stunnel,GPL,http://www.stunnel.org
-subversion,1.8.13,Apache Subversion,Apache License,http://subversion.apache.org
+subversion,1.14.0,Apache Subversion,Apache License,https://subversion.apache.org
 supervisor,3.0b2,Supervisor,BSD Like,http://supervisord.org/index.html
 swig,2.0.12,SWIG,GPL,http://www.swig.org
 talloc,2.1.7,Talloc,GPL,http://talloc.samba.org
