@@ -130,7 +130,7 @@ jemalloc,4.4.0,Jemalloc,BSD-derived,http://www.canonware.com/jemalloc
 jhead,3.00,Jpeg Header Manipulation,Public Domain,http://www.sentex.net/~mwandel/jhead
 joe,4.6,JOE,GPLv2,http://joe-editor.sourceforge.net
 jp2a,1.0.6,JPEG to ASCII,GPL,https://csl.name/jp2a
-jq,1.5,jq,MIT,https://github.com/stedolan/jq
+jq,1.6,JSON Processor,MIT+ASL+CC-BY+GPLv3,https://github.com/stedolan/jq
 jquery,3.1.1,jQuery,MIT,https://jquery.com
 json-c,0.15,JSON-C,BSD,https://github.com/json-c/json-c
 jsoncpp,1.9.4,JsonCpp,Public Domain or MIT,https://github.com/open-source-parsers/jsoncpp
