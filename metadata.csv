@@ -148,7 +148,7 @@ libev,4.33,Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 libevent,2.1.12,LibEvent,BSD,https://libevent.org
 libffi,3.2.1,LibFFI,MIT,https://sourceware.org/libffi
 libgsasl,1.8.0,GNU SASL Library,GPL,http://www.gnu.org/software/gsasl
-libidn,1.33,GNU IDN Library,GPL+LGPL,http://www.gnu.org/software/libidn
+libidn,1.36,GNU IDN Library,GPL+LGPL+GFDL,https://www.gnu.org/software/libidn
 libintl,0.20.1,GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 libintl,0.21,GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 libjpeg,9c,LibJPEG,BSD-like,http://www.ijg.org
@@ -284,6 +284,7 @@ static-glib,2.54.3,[Static] GLib,LGPLv2,https://www.gtk.org
 static-gmp,6.1.2,[Static] GNU MP,GPLv2/LGPLv3,https://gmplib.org
 static-libev,4.33,[Static] Libev,BSD|GPLv2+,http://software.schmorp.de/pkg/libev
 static-libevent,2.1.12,[Static] LibEvent,BSD,https://libevent.org
+static-libidn,1.36,[Static] GNU IDN Library,GPL+LGPL+GFDL,https://www.gnu.org/software/libidn
 static-libintl,0.21,[Static] GNU libintl,GPLv3,https://www.gnu.org/software/gettext
 static-libressl,3.1.4,[Static] LibreSSL,OpenSSL License,https://www.libressl.org
 static-neon,0.31.2,[Static] Neon,LGPLv2+,https://notroj.github.io/neon
