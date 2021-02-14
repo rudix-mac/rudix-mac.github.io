@@ -123,7 +123,7 @@ def process():
             MacOSpkgs['macos10.11'].append(package)
     html = create_table(html, 'macos10.15', metadata, args.url)
     #html = create_table(html, 'macos10.14', metadata, args.url)
-    html = create_table(html, 'macos10.11', metadata, args.url)
+    #html = create_table(html, 'macos10.11', metadata, args.url)
     html += EndPackageTable
     html += args.end.read()
     args.output.write(html)

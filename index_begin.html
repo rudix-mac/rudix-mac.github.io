@@ -17,22 +17,30 @@
   <p>Rudix is a build system target on macOS (formerly known as Mac OS X) with minor support to OpenBSD, FreeBSD, NetBSD and Linux. The build system (also called "ports") provides step-by-step instructions for building third-party software, entirely from source code.</p>
 
   <p>Rudix provides more than a pure ports framework, it comes with <a href="#packages">packages</a>, precompiled software bundled up in a nice format (files <code>*.pkg</code>) for easy installation on your Mac.  If you want to collaborate to the project, visit us at <a href="https://github.com/rudix-mac/">GitHub/rudix-mac</a> or at our mirror at <a href="https://gitlab.com/rudix/">GitLab/rudix</a>. Use the GitHub <a href="https://github.com/rudix-mac/rudix/issues">issue tracker</a> to submit bugs or request features.</p>
-  
+
+
   <p>Similar projects or alternatives to Rudix are
     <a href="https://finkproject.org">Fink</a>,
     <a href="https://www.macports.org">MacPorts</a>,
     <a href="https://www.pkgsrc.org">pkgsrc</a> and
     <a href="https://brew.sh">Homebrew</a>.</p>
 
-  <h2 id="news">News</h2>
+  <h2>News</h2>
   <ul>
-    <li>October 18, 2020. Updated subversion to version 1.14.0, apr to version 1.7.0, apr-util to version 1.6.1 and neon to version 0.31.2</li>
-    <li>October 17, 2020. Updated cmake to version 3.18.4, json-c to version 0.15, adopted jsoncpp version 1.9.4, rhash version 1.4.0 and libproxy version 0.4.15</li>
-    <li>October 15, 2020. Updated libressl to version 3.1.4, libevent to version 2.1.12, adopted openssl version 1.1.1h</li>
-    <li>October 14, 2020. Updated ed to version 1.6, sed to version 4.8 and vim to version 8.2.1845</li>
-    <li>October 09, 2020. Updated pcre to version 8.44, adopted pkgconf version 1.7.3</li>
-    <li>October 03, 2020. Updated lua to version 5.4.0, luajit to version 2.0.5, make to version 4.3, gettext and libintl to version 0.21</li>
+    <li>February 2021</li>
+    <ul>
+      <li>Stay safe and healthy, folks!</li>
+      <li>Rudix is dropping support to El Capitan.</li>
+      <li>Don't expect packages for new Macs with Apple M1 CPU, because we don't have access to Macs with this architecture <code>:(</code>.</li>
+    </ul>
   </ul>
+
+  <h2 id="packages">Packages for macOS</h2>
+  <p>Packages are compiled and tested on macOS <a href="#macos10.15">Catalina</a> (Version 10.15) and OS X <a href="https://github.com/rudix-mac/rudix/wiki/El-Capitan">El Capitan</a> (Version 10.11). Every package is self-contained and has everything it needs to work. The binaries, libraries and documentation will be installed under <code>/usr/local/</code>. Check the
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/MD5.txt">MD5</a>,
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA1.txt">SHA-1</a>,
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA256.txt">SHA-256</a> and the file
+    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SIZES.txt">SIZES</a> after downloading any package from this site.</p>
 
   <center>
     <p id="donate"><strong>Consider donating if you would like to see more of this work</strong>.<br>PayPal (USD)</p>
@@ -44,9 +52,3 @@
     </form>
   </center>
 
-  <h2 id="packages">Packages for macOS</h2>
-  <p>Packages are compiled and tested on macOS <a href="#macos10.15">Catalina</a> (Version 10.15) and OS X <a href="#macos10.11">El Capitan</a> (Version 10.11). Every package is self-contained and has everything it needs to work. The binaries, libraries and documentation will be installed under <code>/usr/local/</code>. Check the
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/MD5.txt">MD5</a>,
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA1.txt">SHA-1</a>,
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SHA256.txt">SHA-256</a> and the file
-    <a href="https://raw.githubusercontent.com/rudix-mac/packages/master/SIZES.txt">SIZES</a> after downloading any package from this site.</p>
