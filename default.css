@@ -1,0 +1,21 @@
+/*! default.css 2022 | MIT License | rudix.org/default.css */
+
+html {
+    background-color: IndianRed;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: Snow;
+    width: 65%;
+    min-height: 90vh;
+    margin: 1em auto 1em;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+hr { border: 1px dotted lightgray; }
+img { border-radius: 3px; }
